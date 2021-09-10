@@ -73,7 +73,7 @@ document.getElementById("Laptop_Object").innerHTML = laptop.description();  /* C
 
 function breakk() {  /* Creating function which will have a break statement in a loop */ 
     var brr = ""; 
-for (let i=1; i<=5; i++){
+for (let i=1; i<=5; i++){ 
     if (i === 4) break;
     brr += i; 
   }
